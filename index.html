@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy of Notepad — Beautiful Notes respects your privacy </title>
+  <style>
+    :root{
+      --bg1:#071022;
+      --accent:#6ee7b7;
+      --accent-2:#60a5fa;
+      --muted:#9aa4b2;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family:Inter,Segoe UI,system-ui,Arial;
+      background:linear-gradient(180deg,var(--bg1),#04101a);
+      color:#e6eef8;
+      padding:24px;
+      margin:0;
+      min-height:100vh;
+    }
+    .container{
+      max-width:680px;
+      margin:40px auto;
+      background:rgba(255,255,255,0.02);
+      padding:32px;
+      border-radius:16px;
+      box-shadow:0 10px 40px rgba(2,6,23,0.7);
+      border:1px solid rgba(255,255,255,0.04);
+    }
+    .header{
+      display:flex;
+      align-items:center;
+      gap:16px;
+      margin-bottom:28px;
+      padding-bottom:20px;
+      border-bottom:1px solid rgba(255,255,255,0.06);
+    }
+    .logo{
+      width:56px;
+      height:56px;
+      border-radius:12px;
+    }
+    h1{
+      margin:0;
+      font-size:28px;
+      font-weight:700;
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      background-clip:text;
+    }
+    .subtitle{
+      margin:0;
+      color:var(--muted);
+      font-size:14px;
+    }
+    h2{
+      font-size:20px;
+      margin:24px 0 12px;
+      color:#cfe9ff;
+    }
+    p{
+      line-height:1.7;
+      color:#cfe9ff;
+      margin:12px 0;
+    }
+    .highlight-box{
+      background:rgba(110,231,183,0.08);
+      border-left:3px solid var(--accent);
+      padding:16px 20px;
+      border-radius:8px;
+      margin:20px 0;
+    }
+    .highlight-box p{
+      margin:8px 0;
+    }
+    ul{
+      list-style:none;
+      padding:0;
+      margin:16px 0;
+    }
+    ul li{
+      padding:10px 0 10px 32px;
+      position:relative;
+      color:#cfe9ff;
+    }
+    ul li:before{
+      content:"✓";
+      position:absolute;
+      left:0;
+      color:var(--accent);
+      font-weight:700;
+      font-size:18px;
+    }
+    .footer{
+      margin-top:32px;
+      padding-top:20px;
+      border-top:1px solid rgba(255,255,255,0.06);
+      text-align:center;
+      color:var(--muted);
+      font-size:13px;
+    }
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:10px 20px;
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.1);
+      border-radius:8px;
+      color:#cfe9ff;
+      text-decoration:none;
+      cursor:pointer;
+      transition:background 0.2s;
+    }
+    .btn:hover{
+      background:rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="icon.png" class="logo" alt="Focus Timer Pro" />
+      <div>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Your privacy is our priority</p>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Notepad — Beautiful Notes respects your privacy.</strong></p>
+      <p>We believe your data belongs to you, and you alone.</p>
+    </div>
+
+    <h2>Our Privacy Commitment</h2>
+    
+    <ul>
+      <li><strong>No ads</strong> — We don't show advertisements or track you for advertising purposes</li>
+      <li><strong>No analytics</strong> — We don't collect usage statistics or behavioral data</li>
+      <li><strong>No tracking</strong> — We don't use cookies, pixels, or any tracking technologies</li>
+      <li><strong>No data leaves your device</strong> — All your data stays on your local browser</li>
+      <li><strong>No account required</strong> — No sign-ups, no emails, no personal information needed</li>
+      <li><strong>No third-party services</strong> — We don't send data to external servers or services</li>
+    </ul>
+
+    <h2>What Data Is Stored</h2>
+    <p>Notepad — Beautiful Notes the following data <strong>locally on your device only</strong> using Chrome's storage API:</p>
+    <ul>
+      <li>
+Your notes and their titles</li>
+      <li>
+Password (if you enable it)</li>
+      <li>
+Theme preference (dark/light)</li>
+      <li>
+Recently opened notes list</li>
+    </ul>
+
+    <h2>Permissions Explained</h2>
+    <p>Notepad — Beautiful Notes requests the following permissions:</p>
+    <ul>
+      <li><strong>Storage</strong> — To save your settings and timer data locally</li>
+      <li><strong>Alarms</strong> — To trigger timer notifications and scheduled blocks</li>
+    </ul>
+
+    <h2>Changes to Privacy Policy</h2>
+    <p>Any updates to this privacy policy will be reflected in new versions of the extension. We will never reduce privacy protections without clear notice.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about privacy, please reach out through the <a href="https://www.facebook.com/shah.bishnu.508739/" style="color:var(--accent)">developer's page</a>.</p>
+
+    <div class="footer">
+      <p><strong>Notepad — Beautiful Notes respects your privacy. 3.0.0</strong></p>
+      <p>Your data. Your device. Your privacy.</p>
+      <button class="btn" onclick="window.close()">Close</button>
+    </div>
+  </div>
+</body>
+</html>
